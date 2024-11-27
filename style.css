@@ -1,0 +1,34 @@
+/* Animated Gradient Background */
+body {
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Arial, sans-serif;
+   background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1, #fad0c4);
+   background-size: 400% 400%;
+   animation: gradientAnimation 8s ease infinite;
+ }
+ 
+ h1 {
+   color: white;
+   font-size: 3rem;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+   text-align: center;
+   margin: 0;
+ }
+ 
+ /* Animation Keyframes */
+ @keyframes gradientAnimation {
+   0% {
+     background-position: 0% 50%;
+   }
+   50% {
+     background-position: 100% 50%;
+   }
+   100% {
+     background-position: 0% 50%;
+   }
+ }
+ 
