@@ -31,4 +31,9 @@ body {
      background-position: 0% 50%;
    }
  }
- 
+
+div{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}

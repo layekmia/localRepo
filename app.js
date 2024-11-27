@@ -63,3 +63,5 @@ function clearAll() {
 console.log("Welcome to the To-Do List App!");
 console.log("Use add('task'), remove(index), toggle(index), clearAll() to manage your tasks.");
 displayTasks();
+
+console.log("Hello Wrold")
