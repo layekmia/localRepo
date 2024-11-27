@@ -65,3 +65,8 @@ console.log("Use add('task'), remove(index), toggle(index), clearAll() to manage
 displayTasks();
 
 console.log("Hello Wrold")
+
+// Fruit cutater fucntion
+const fruit = function(apple, orange){
+    console.log(`juice with ${apple} apples and ${orange} oranges`);
+}
